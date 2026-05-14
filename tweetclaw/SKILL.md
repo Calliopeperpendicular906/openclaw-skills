@@ -19,22 +19,23 @@ TweetClaw is an OpenClaw plugin for X/Twitter automation through Xquik. Use it w
 ## Links
 
 - GitHub: https://github.com/Xquik-dev/tweetclaw
-- npm: https://www.npmjs.com/package/@xquik/tweetclaw
+- npm: https://www.npmjs.com/package/@xquik/tweetclaw (`@xquik/tweetclaw@1.6.31`)
 - ClawHub: https://clawhub.ai/plugins/@xquik/tweetclaw
 - Xquik API docs: https://docs.xquik.com/api-reference/overview
 
 ## Install
 
-Prefer the ClawHub package in OpenClaw:
+Install the official npm package in OpenClaw:
 
 ```bash
-openclaw plugins install clawhub:@xquik/tweetclaw@1.6.29
+openclaw plugins install @xquik/tweetclaw
 ```
 
-npm install is also available:
+ClawHub remains useful as a discovery page, but npm is the canonical install
+source for the current `@xquik/tweetclaw` package.
 
 ```bash
-openclaw plugins install npm:@xquik/tweetclaw@1.6.29
+openclaw plugins install npm:@xquik/tweetclaw@1.6.31
 ```
 
 Store `XQUIK_API_KEY` in OpenClaw plugin config or environment storage. Never paste API keys into chat, documentation, logs, screenshots, or shell history.
@@ -43,7 +44,7 @@ Store `XQUIK_API_KEY` in OpenClaw plugin config or environment storage. Never pa
 
 Use TweetClaw when the user asks to:
 
-- Search tweets or search tweet replies
+- Scrape tweets, search tweets, or search tweet replies
 - Post tweets or post tweet replies
 - Look up X/Twitter users
 - Export followers or following lists

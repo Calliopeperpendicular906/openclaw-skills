@@ -18,7 +18,7 @@ You can find the latest skills on ClawHub, but this repository provides a backup
 |------------------------|---------------------------------------------------------------------------------------------------|---------|
 | facebook-group-monitor  | Watches Facebook groups, collects new posts, and takes a wide screenshot of the feed for easy review. | 1.3.0   |
 | goodreads              | Connects to Goodreads to check shelves, search books, read details via RSS, and update your progress. | 1.0.0   |
-| tweetclaw              | Guides OpenClaw agents through X/Twitter automation with TweetClaw: search tweets, post tweets and replies, export followers, use media, DMs, monitors, webhooks, and giveaway draws. | 1.6.29  |
+| tweetclaw              | Guides OpenClaw agents through X/Twitter automation with TweetClaw: scrape tweets, search tweets, post tweets and replies, export followers, use media, DMs, monitors, webhooks, and giveaway draws. | 1.6.31  |
 
 ---
 
@@ -113,8 +113,8 @@ Once installed:
 
 ### tweetclaw
 
-- Install the TweetClaw OpenClaw plugin from ClawHub or npm.
-- Search tweets and replies, post tweets and replies, export followers, look up users, upload media, read DMs, create monitors, configure webhooks, and run giveaway draws.
+- Install the TweetClaw OpenClaw plugin from npm with `openclaw plugins install @xquik/tweetclaw`.
+- Search tweets and replies, scrape tweets, post tweets and replies, export followers, look up users, upload media, read DMs, create monitors, configure webhooks, and run giveaway draws.
 - Keep `XQUIK_API_KEY` in OpenClaw plugin config or environment storage. Never paste API keys into chat, docs, logs, or screenshots.
 - Confirm the account, target, text, media, and scope before any posting, reply, DM, follow, like, retweet, monitor, webhook, draw, or other state-changing action.
 
