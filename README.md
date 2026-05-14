@@ -18,6 +18,7 @@ You can find the latest skills on ClawHub, but this repository provides a backup
 |------------------------|---------------------------------------------------------------------------------------------------|---------|
 | facebook-group-monitor  | Watches Facebook groups, collects new posts, and takes a wide screenshot of the feed for easy review. | 1.3.0   |
 | goodreads              | Connects to Goodreads to check shelves, search books, read details via RSS, and update your progress. | 1.0.0   |
+| tweetclaw              | Guides OpenClaw agents through X/Twitter automation with TweetClaw: search tweets, post tweets and replies, export followers, use media, DMs, monitors, webhooks, and giveaway draws. | 1.6.29  |
 
 ---
 
@@ -109,6 +110,13 @@ Once installed:
 - Connect your Goodreads account via the skill.  
 - It checks your shelves, searches books, and reads details using RSS feeds.  
 - You can update ratings, shelves, and reading progress directly through the agent.  
+
+### tweetclaw
+
+- Install the TweetClaw OpenClaw plugin from ClawHub or npm.
+- Search tweets and replies, post tweets and replies, export followers, look up users, upload media, read DMs, create monitors, configure webhooks, and run giveaway draws.
+- Keep `XQUIK_API_KEY` in OpenClaw plugin config or environment storage. Never paste API keys into chat, docs, logs, or screenshots.
+- Confirm the account, target, text, media, and scope before any posting, reply, DM, follow, like, retweet, monitor, webhook, draw, or other state-changing action.
 
 ---
 
