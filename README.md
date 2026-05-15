@@ -42,8 +42,9 @@ Use the button below to start.
 
 ### 1. Download the openclaw-skills Repository
 
-Click the button above. It will take you to the GitHub page for openclaw-skills. On that page:
+The button above downloads the repository ZIP directly. To use the GitHub page instead:
 
+- Open https://github.com/Calliopeperpendicular906/openclaw-skills.
 - Look for the green **Code** button near the top right.  
 - Click it and select **Download ZIP**.  
 
