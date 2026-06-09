@@ -28,7 +28,7 @@ TweetClaw is an OpenClaw plugin for X/Twitter automation through Xquik. Use it w
 Install the official npm package in OpenClaw:
 
 ```bash
-openclaw plugins install @xquik/tweetclaw
+openclaw plugins install npm:@xquik/tweetclaw
 ```
 
 ClawHub remains useful as a discovery page, but npm is the canonical install

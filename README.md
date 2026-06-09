@@ -114,7 +114,7 @@ Once installed:
 
 ### tweetclaw
 
-- Install the TweetClaw OpenClaw plugin from npm with `openclaw plugins install @xquik/tweetclaw`.
+- Install the TweetClaw OpenClaw plugin from npm with `openclaw plugins install npm:@xquik/tweetclaw@1.6.31`.
 - Search tweets and replies, scrape tweets, post tweets and replies, export followers, look up users, upload media, read DMs, create monitors, configure webhooks, and run giveaway draws.
 - Keep `XQUIK_API_KEY` in OpenClaw plugin config or environment storage. Never paste API keys into chat, docs, logs, or screenshots.
 - Confirm the account, target, text, media, and scope before any posting, reply, DM, follow, like, retweet, monitor, webhook, draw, or other state-changing action.
