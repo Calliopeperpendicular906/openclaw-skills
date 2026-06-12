@@ -19,7 +19,7 @@ TweetClaw is an OpenClaw plugin for X/Twitter automation through Xquik. Use it w
 ## Links
 
 - GitHub: https://github.com/Xquik-dev/tweetclaw
-- npm: https://www.npmjs.com/package/@xquik/tweetclaw (`@xquik/tweetclaw@1.6.31`)
+- npm metadata: https://registry.npmjs.org/@xquik%2ftweetclaw (`@xquik/tweetclaw@1.6.31`)
 - ClawHub: https://clawhub.ai/plugins/@xquik/tweetclaw
 - Xquik API docs: https://docs.xquik.com/api-reference/overview
 
