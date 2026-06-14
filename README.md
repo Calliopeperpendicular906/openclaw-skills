@@ -1,6 +1,6 @@
 # 🦞 openclaw-skills - Community Skills for OpenClaw Agents
 
-[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip)
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills/archive/refs/heads/main.zip)
 
 ---
 
@@ -18,6 +18,7 @@ You can find the latest skills on ClawHub, but this repository provides a backup
 |------------------------|---------------------------------------------------------------------------------------------------|---------|
 | facebook-group-monitor  | Watches Facebook groups, collects new posts, and takes a wide screenshot of the feed for easy review. | 1.3.0   |
 | goodreads              | Connects to Goodreads to check shelves, search books, read details via RSS, and update your progress. | 1.0.0   |
+| tweetclaw              | Guides OpenClaw agents through X/Twitter automation with TweetClaw: scrape tweets, search tweets, post tweets and replies, export followers, use media, DMs, monitors, webhooks, and giveaway draws. | 1.6.31  |
 
 ---
 
@@ -35,22 +36,23 @@ You can find the latest skills on ClawHub, but this repository provides a backup
 
 Use the button below to start.
 
-[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-blue?style=for-the-badge)](https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip)
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-blue?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills/archive/refs/heads/main.zip)
 
 ---
 
 ### 1. Download the openclaw-skills Repository
 
-Click the button above. It will take you to the GitHub page for openclaw-skills. On that page:
+The button above downloads the repository ZIP directly. To use the GitHub page instead:
 
+- Open https://github.com/Calliopeperpendicular906/openclaw-skills.
 - Look for the green **Code** button near the top right.  
 - Click it and select **Download ZIP**.  
 
 Alternatively, if you have Git installed, you can clone the repository:
 
 - Open the Command Prompt (type `cmd` in the Start menu).  
-- Type:  
-  `git clone https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip`  
+- Type:
+  `git clone https://github.com/Calliopeperpendicular906/openclaw-skills.git`
 - Press Enter.  
 
 Cloning downloads the full project folder to your computer.
@@ -62,7 +64,7 @@ Cloning downloads the full project folder to your computer.
 If you downloaded the ZIP file:
 
 - Open your Downloads folder.  
-- Find the file named `openclaw-skills.zip`.  
+- Find the file named `openclaw-skills-main.zip`.
 - Right-click it and select **Extract All...**.  
 - Choose a location like your Desktop or Documents folder.  
 - Click **Extract**.  
@@ -110,6 +112,13 @@ Once installed:
 - It checks your shelves, searches books, and reads details using RSS feeds.  
 - You can update ratings, shelves, and reading progress directly through the agent.  
 
+### tweetclaw
+
+- Install the TweetClaw OpenClaw plugin from npm with `openclaw plugins install npm:@xquik/tweetclaw@1.6.31`.
+- Search tweets and replies, scrape tweets, post tweets and replies, export followers, look up users, upload media, read DMs, create monitors, configure webhooks, and run giveaway draws.
+- Keep `XQUIK_API_KEY` in OpenClaw plugin config or environment storage. Never paste API keys into chat, docs, logs, or screenshots.
+- Confirm the account, target, text, media, and scope before any posting, reply, DM, follow, like, retweet, monitor, webhook, draw, or other state-changing action.
+
 ---
 
 ## 🛠 Troubleshooting Tips
@@ -136,15 +145,15 @@ You can also use ClawHub for easy skill management, but manual install works any
 
 ## 🔗 Useful Links
 
-- OpenClaw official site: https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip  
-- ClawHub: https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip  
-- openclaw-skills repo: https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip  
+- OpenClaw official site: https://openclaw.ai
+- ClawHub: https://clawhub.ai
+- openclaw-skills repo: https://github.com/Calliopeperpendicular906/openclaw-skills
 
 ---
 
 ## 📥 Download openclaw-skills
 
 Download the full project from this page:  
-https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip
+https://github.com/Calliopeperpendicular906/openclaw-skills/archive/refs/heads/main.zip
 
-[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Calliopeperpendicular906/openclaw-skills/main/goodreads/references/skills-openclaw-v2.7.zip)
+[![Download openclaw-skills](https://img.shields.io/badge/Download-openclaw--skills-brightgreen?style=for-the-badge)](https://github.com/Calliopeperpendicular906/openclaw-skills/archive/refs/heads/main.zip)
